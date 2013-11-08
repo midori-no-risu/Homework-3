@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>{{ nyancat.name|upper }}</h1>
+    <p>{{ nyancat.name }} says: '{{ nyancat.meowUntilYouGoMad }}'</p>
+    <p>{{ nyancat.pawCheck(3) }}</p>
+    <p></p>
+    {% set eyes = 'green' %}
+    <p>{{ nyancat.name }} has {{   eyes }} eyes.</p>
+    <p>{{ nyancat.name }} looks like {{ nyancat.body }} with {{ nyancat.tail }} tail.</p>
+</body>
+</html>
